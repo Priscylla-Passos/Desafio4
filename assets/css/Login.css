@@ -1,0 +1,100 @@
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--background-login);
+    height: 100vh;
+
+}
+
+.principal__login-textos{
+   font-weight: 400;
+   color: var(--texto);
+   margin-left: 280px;
+   
+}
+
+h1{
+    font-size: 60px;
+    line-height: 76px;
+    margin-top: 197px;
+}
+
+p{
+    width: 301px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 17px;
+}
+h2{
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 135px;
+}
+.principal__login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__login-inputs{
+    width: 379px;
+    height: 60px;
+    border: 1px solid var(--branco);
+    border-radius: 50px;
+    background: var(--background-input);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    color: var(--texto);
+    margin-left: 280px;
+}
+
+.principal__login-input-usuario{
+    margin-top: 32px;
+}
+
+.principal__login-input-senha{
+    margin-top: 35px;
+}
+
+.principal__login-icones{
+    width: 20px;
+    height: 20px;
+    margin-left: 710px;
+    margin-top: -35px;
+}
+
+.principal__login-erro{
+    width: 283px;
+    height: 40px;
+    font-weight: 700; 
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--texto_erro);
+    margin: 48px 0px 0px 333px;
+    visibility: hidden;
+    
+}
+
+.principal__login-button{
+    width: 379px;
+    height: 67px;
+    box-sizing: border-box; 
+    border-radius: 50px;
+    border: 2px solid var(--bt_login);
+    background: var(--bt_login);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    color: var(--branco);
+    margin: 47px  296px 198px 285px;
+}
+
+.principal__imagem-logo{
+   margin: 35px 327px 0px 327px;
+}
+
+.principal__imagem{
+    background-image: url(../img/img_Login.svg);
+}

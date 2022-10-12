@@ -1,0 +1,21 @@
+@import url(../css/Login.css);
+
+
+:root{
+    --bt_login: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);;
+    --texto: #E0E0E0;
+    --background-login: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    --texto_erro:  #E9B425;
+    --texto_navegando: #c13216;
+    --branco: #FFFFFF;
+    --texto_home: #C12D18;
+    --background_input: #26292C;
+
+    --font_Nunito: 'Nunito', sans-serif;
+}
+
+body{
+    font-family: var(--font_Nunito);
+    /* background: var(--background_login); 
+    */
+}
