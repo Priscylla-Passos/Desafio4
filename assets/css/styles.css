@@ -1,4 +1,7 @@
-@import url(../css/Login.css);
+@import url(../css/login.css);
+@import url(../css/cabecalho_home.css);
+@import url(../css/principal_home.css);
+@import url(../css/footer_home.css);
 
 
 :root{
@@ -10,12 +13,17 @@
     --branco: #FFFFFF;
     --texto_home: #C12D18;
     --background_input: #26292C;
+    --texto_cabecalho-home: #222222;
+    --background_footer: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
 
-    --font_Nunito: 'Nunito', sans-serif;
+    
+    --font_Poppins: 'Poppins', sans-serif;
 }
 
 body{
-    font-family: var(--font_Nunito);
-    /* background: var(--background_login); 
-    */
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--font_Poppins);
+
+   
 }

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compass - Login</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Compass - Login</title>
 </head>
 <body>
     <main>
@@ -21,20 +21,20 @@
                      <h2>Login</h2>
                 </div>
                 <div class="principal__login-form">
-                    <input type="text" placeholder="Usuário" class="principal__login-input-usuario principal__login-inputs">
-                    <img src="assets/img/icon_login.svg" alt="Login Usuário" class="principal__login-icones">
-                    <input type="password" placeholder="Senha" class="principal__login-input-senha principal__login-inputs">
-                    <img src="assets/img/icon_senha.svg" alt="Senha" class="principal__login-icones">
-                    <span class="principal__login-erro">Ops, usuário ou senha inválidos. Tente novamente!</span>
-                    <button class="principal__login-button">Continuar</button>
+                    <input type="text" placeholder="Usuário" class="principal__login-input-usuario principal__login-inputs" autofocus onkeypress="digitar()" id="input_usuario" onfocus="atualizar()">
+                    <img src="assets/img/icon_login.svg" alt="Login Usuário" class="principal__login-icones" id="icone_usuario">
+                    <input type="password" placeholder="Senha" class="principal__login-input-senha principal__login-inputs" id="input_senha">
+                    <img src="assets/img/icon_senha.svg" alt="Senha" class="principal__login-icones" id="icone_senha">
+                    <span class="principal__login-erro" id="erro">Ops, usuário ou senha inválidos. Tente novamente!</span>
+                    <button class="principal__login-button" onclick="logar()">Continuar</button>
                 </div>
-            </div>
-             
-           <div class="principal__imagem"> 
+            </div>   
+            <div class="principal__imagem"> 
                 <img src="assets/img/Logo-Compasso-Branco.svg" alt="Logo da compass Uol" class="principal__imagem-logo">
             
            </div>
         </section>
+        <script src="assets/js/login.js"></script>
     </main>
 </body>
 </html>

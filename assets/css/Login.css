@@ -1,35 +1,35 @@
 .principal{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     background: var(--background-login);
     height: 100vh;
-
 }
 
 .principal__login-textos{
-   font-weight: 400;
-   color: var(--texto);
-   margin-left: 280px;
-   
+    font-weight: 400;
+    color: var(--texto);
+    margin-left: 280px;
 }
 
 h1{
     font-size: 60px;
     line-height: 76px;
     margin-top: 197px;
-}
+ }
 
-p{
+ p{
     width: 301px;
     font-size: 16px;
     line-height: 20px;
     margin-top: 17px;
 }
+
 h2{
     font-size: 30px;
     line-height: 38px;
     margin-top: 135px;
 }
+
 .principal__login-form{
     display: flex;
     flex-direction: column;
@@ -73,7 +73,10 @@ h2{
     color: var(--texto_erro);
     margin: 48px 0px 0px 333px;
     visibility: hidden;
-    
+}
+
+.principal__login-erro-ativo{
+    visibility: visible;
 }
 
 .principal__login-button{
@@ -89,6 +92,7 @@ h2{
     line-height: 23px;
     color: var(--branco);
     margin: 47px  296px 198px 285px;
+    cursor: pointer;
 }
 
 .principal__imagem-logo{
@@ -96,5 +100,7 @@ h2{
 }
 
 .principal__imagem{
-    background-image: url(../img/img_Login.svg);
+   background-image: url(../img/img_login.png);
+   background-repeat: no-repeat;
+
 }

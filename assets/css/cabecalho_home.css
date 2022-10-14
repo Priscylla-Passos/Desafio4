@@ -1,0 +1,54 @@
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.cabecalho__logo{
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.cabecalho__horario{
+  width: 384px;
+  height: 146px;
+  font-size: 144px;
+  font-weight: 700;
+  line-height: 183px;
+  text-align: center;
+  color: var(--texto_cabecalho-home);
+  
+}
+
+.cabecalho__data{
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 18px;
+ text-align: center;
+ color: var(--texto_cabecalho-home);
+ margin-left: 30px;
+ margin-top: 5px;
+ 
+  
+}
+.cabecalho__localizacao{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: end;
+  color: var(--texto_cabecalho-home);
+  margin-left: 30px;
+  margin-right: 41px;
+
+}
+
+.cabecalho__tempo{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 61px;
+  color: var(--texto_cabecalho-home);
+  margin-right: 41px;
+  margin-left: 40px;
+  text-align: end;
+}
+

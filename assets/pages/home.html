@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">   
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <title>Compass - Home</title>
+</head>
+<body onload="iniciarTempo();">
+    <header>
+        <section class="cabecalho">
+            <div>
+                <img src="../img/LogoCompasso.svg" alt="Logo da Compass Uol" class="cabecalho__logo">
+            </div>
+            <div>
+                <span class="cabecalho__horario" id="horario"></span>
+                <span class="cabecalho__data" id="data"></span>
+            </div>
+            <div>
+                <p class="cabecalho__localizacao">Passo Fundo - RS</p>
+                <p class="cabecalho__tempo">22º</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="principal__home">
+            <div class="principal__home-bola"></div>
+            <div class="principal__home-textos">
+                <p class="principal__home-textos-missao">Our mission is</p>
+                <p class="principal__home-textos-portugues">Nossa missão é</p>
+                <p class="principal__home-textos-ingles">to transform the world</p>
+                <p class="principal__home-textos-portugues">transformar o mundo</p>
+                <p class="principal__home-textos-ingles">building digital experiences</p>
+                <p class="principal__home-textos-portugues">construindo experiências digitais</p>
+                <p class="principal__home-textos-crescimento">that enable our client's growth</p>
+                <p class="principal__home-textos-portugues">que permitam o crescimento dos nossos clientes</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div>
+                <p class="footer__texto">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</p> 
+            </div>
+                <img src="../img/Line_home.svg" alt="Separação por uma linha" class="footer__linha">
+            
+            <div>
+                <button class="footer__refresh">Application refresh in</button>
+                <span class="footer__counter">600</span>
+                <span>seconds</span>
+            </div>
+            <div>
+                <button>Continuar Navegando</button>
+                <button>Logout</button>
+            </div>
+        </section>
+    </footer>
+    <script src="../js/home.js"></script>
+    
+</body>
+</html>
