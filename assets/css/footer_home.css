@@ -32,12 +32,50 @@
     background: var(--background_input);
     border: none;
     margin-bottom: 19px;
-    margin-left: -302px;
-    margin-top: 20px;
+    margin-left: -22px;
+    margin-top: 30px;
 
 }
 
 .footer__counter{
     font-size: 48px;
     color: var(--branco);
+    margin-left: 35px;
+}
+
+.footer__segundos{
+   position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: var(--branco); 
+    margin-top: 65px;
+    margin-left: -65px;
+}
+
+.footer__botao-continuar{
+    width: 131px;
+    height: 99px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.21px;
+    color: var(--texto_navegando);
+    background: var(--branco);
+    padding: 36.17px 18px 34.27px 18px;
+    margin-top: 0%;
+}
+
+.footer__botao-logout{
+    width: 128px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: var(--branco);
+    background: transparent;
+    border: none;
+    text-align: center; 
+   
+
 }

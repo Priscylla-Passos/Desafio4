@@ -11,14 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <title>Compass - Home</title>
 </head>
-<body onload="iniciarTempo();">
+<body onload="iniciarTempo(); counter();">
     <header>
         <section class="cabecalho">
             <div>
                 <img src="../img/LogoCompasso.svg" alt="Logo da Compass Uol" class="cabecalho__logo">
             </div>
             <div>
-                <span class="cabecalho__horario" id="horario"></span>
+                <p class="cabecalho__horario" id="horario"></p>
                 <span class="cabecalho__data" id="data"></span>
             </div>
             <div>
@@ -50,13 +50,13 @@
                 <img src="../img/Line_home.svg" alt="Separação por uma linha" class="footer__linha">
             
             <div>
-                <button class="footer__refresh">Application refresh in</button>
-                <span class="footer__counter">600</span>
-                <span>seconds</span>
+                <button class="footer__refresh" id="refresh">Application refresh in</button>
+                <span class="footer__counter" id="counter"></span>
+                <span class="footer__segundos">seconds</span>
             </div>
             <div>
-                <button>Continuar Navegando</button>
-                <button>Logout</button>
+                <button class="footer__botao-continuar" id="continuar">Continuar Navegando</button>
+                <button class="footer__botao-logout" id="logout">Logout</button>
             </div>
         </section>
     </footer>
