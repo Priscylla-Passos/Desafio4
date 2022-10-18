@@ -1,6 +1,6 @@
 
 .footer{
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     background: var(--background_footer);

@@ -21,7 +21,7 @@
 }
 
 body{
-   
+   height: 100vh;
     font-family: var(--font_Poppins);
 
    
