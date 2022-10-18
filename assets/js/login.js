@@ -1,27 +1,14 @@
-let usuario = document.querySelector(".principal__login-input-usuario")
-let senha = document.querySelector(".principal__login-input-senha")
-let btContinuar = document.querySelector(".principal__login-button")
+//Variáveis e Seleção de elementos
+let usuario = document.querySelector("#input_usuario")
+let senha = document.querySelector("#input_senha")
+let btContinuar = document.querySelector("#bt_continuar")
 
-//LocalStorage
-let acesso = {
-        usuario: "admin", senha: "admin",
-}
+let acesso = [{
+    
+}]
 
-function logar(){
 
-    if(usuario.value == "admin" && senha.value == "admin"){
-        // localStorage.setItem("acesso", true);
-        localStorage.setItem("acesso", JSON.stringify(acesso));
-
-        window.location.href = "../assets/pages/home.html";
-
-    }else{
-        document.getElementById("erro").style.visibility = "visible";
-        document.getElementById("input_usuario").style.border = "1px solid #E9B425"
-        document.getElementById("input_senha").style.border = "1px solid #E9B425"
-        
-    }
-}
+//Funções
 
 function digitar(){
 
@@ -40,3 +27,28 @@ function atualizar(){
     document.getElementById("icone_usuario").style.marginLeft = "710px";
     document.getElementById("icone_senha").style.marginLeft = "710px";
 }
+
+
+
+//Eventos
+btContinuar.addEventListener("click", function(){
+       
+    if(usuario.value != "" && senha.value != ""){
+        acesso = {
+            usuario: usuario.value,
+            senha: senha.value,
+        }
+
+        localStorage.setItem("acesso", JSON.stringify(acesso));
+                     
+        window.location.href = "../assets/pages/home.html";
+
+    }else{
+        document.getElementById("erro").style.visibility = "visible";
+        document.getElementById("input_usuario").style.border = "1px solid #E9B425"
+        document.getElementById("input_senha").style.border = "1px solid #E9B425"
+        
+    }
+})
+
+

@@ -32,24 +32,38 @@
  margin-top: 15px;
   
 }
-.cabecalho__localizacao{
+
+.cabecalho__cidade{
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
-  text-align: end;
   color: var(--texto_cabecalho-home);
-  margin-left: 30px;
-  margin-right: 41px;
+  margin-top: 45px;
+  margin-left: 98px;
 
+}
+.cabecalho__estado{
+  position: absolute;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--texto_cabecalho-home);
+  margin-top: -16px;
+  margin-left: 189px;
 }
 
 .cabecalho__tempo{
+  position: absolute;
   font-size: 48px;
   font-weight: 700;
   line-height: 61px;
   color: var(--texto_cabecalho-home);
-  margin-right: 41px;
-  margin-left: 40px;
-  text-align: end;
+  text-align: center;
+  margin-left: 10px;
 }
 
+.cabecalho__icone{
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 0px;
+}
